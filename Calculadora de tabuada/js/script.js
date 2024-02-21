@@ -45,6 +45,6 @@ multiplicationForm.addEventListener("submit", (event) => {
   if (!number || !multiplicator) {
     noResults(number);
   } else {
-    createTable(number, multiplicator);
+    createTable(number, multiplicator)
   }
 });
