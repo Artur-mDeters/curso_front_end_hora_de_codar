@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+}
+.principal-container {
+  display: flex;
+}
+main {
+  display: flex;
+}
+nav {
+  width: 240px;
+  border-right: 1px solid #dbdbdb;
+  height: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 12px 20px;
+  background-color: #e6e6e6dd;
+}
+
+#logo-nav {
+  margin: 40px 0 40px 10px;
+}
+
+#logo-nav img {
+  height: 40px;
+}
+
+#principal-nav {
+  font-size: 13pt;
+  margin-bottom: 170%;
+}
+
+.buttons-nav {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.buttons-nav:hover {
+  background-color: #d3d1d1;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.buttons-nav p {
+  margin-left: 10px;
+}
+
+.buttons-nav i {
+  font-size: 20pt;
+}
+
+#footer-nav {
+  display: absolute;
+  bottom: 0px;
+}
+
+.principal {
+  font-weight: bold;
+}
+
+/* página principal  */
+
+.stories-container {
+  display: flex;
+}
+
+.storie {
+  height: auto;
+  width: auto;
+  margin: 0 10px;
+  text-align: center;
+  align-items: center;
+  
+}
+.storie img {
+  display: block;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.storie:hover {
+  cursor: pointer;
+}
+/* stories  */
+main {
+  width: 100vw;
+  margin-left: 480px;
+  margin-top: 40px;
+}
+
+.feed-container {
+  display: block;
+
+}
+
+.feed {
+  
+  margin: 20px 0;
+}
+
+.perfil {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d3d1d1;
+}
+.img-perfil {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.perfil img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.perfil .nome {
+  font-weight: bold;
+  margin-left: 15px;
+}
+.pontinhos {
+  display: flex;
+  width: 10%;
+  height: 100%;
+  right: 20px;
+}
+.pontinhos:hover {
+  cursor: pointer;
+}
+
+.pontinhos p{
+  font-weight: bold;
+  color: #a0a0a0;
+  font-size: 20pt;
+  line-height: 45px
+}
+
+.publication{
+  width: 95%;
+  margin: 20px auto;
+  border: 1px solid #d3d1d1; 
+}
+
+.publication > img {
+  width: 95%;
+  display: flex;
+  margin: 10px auto;
+  border: #a0a0a0 1px solid;
+}
+
